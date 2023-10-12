@@ -1,15 +1,19 @@
-package com.example.gathergrid1;
+package com.example.gathergrid;
 
-import java.io.*;
-import jakarta.servlet.http.*;
-//import jakarta.servlet.annotation.*;
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+
+import java.io.IOException;
+import java.io.PrintWriter;
 
 //@WebServlet(name = "helloServlet", value = "/hello-servlet")
-public class HelloServlet extends HttpServlet {
+public class HelloMjid extends HttpServlet {
     private String message;
 
     public void init() {
-        message = "Hello World!";
+        message = "Hello Mjid!";
     }
 
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
