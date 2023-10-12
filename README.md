@@ -27,6 +27,12 @@ mvn clean install
 6. Deploy the generated WAR file to a compatible JEE application server (e.g., Apache Tomcat).
 7. Start the JEE application server and access the application using the provided URL.
 
+## Dependencies:
+Hibernate Core: 6.2.7.Final
+Hibernate JPA API: 1.0.2.Final
+Jakarta Servlet API: 6.0.0
+MySQL Connector/J: 8.1.0
+
 ## Acknowledgements:
 [Hibernate](https://hibernate.org/) - 
 [Jakarta EE](https://jakarta.ee/) - 
