@@ -29,8 +29,11 @@ mvn clean install
 
 ## Dependencies:
 Hibernate Core: 6.2.7.Final
+
 Hibernate JPA API: 1.0.2.Final
+
 Jakarta Servlet API: 6.0.0
+
 MySQL Connector/J: 8.1.0
 
 ## Acknowledgements:
